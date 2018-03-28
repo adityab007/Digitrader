@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">new</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="drawer_item_home">Home</string>
+    <string name="drawer_item_option1">Add on Stock</string>
+    <string name="drawer_item_option2">Remove from Stock</string>
+    <string name="drawer_item_option3">Stock</string>
+    <string name="drawer_item_settings">settings</string>
+    <string name="drawer_item_help">help</string>
+    <string name="drawer_item_contact">contact</string>
+</resources>

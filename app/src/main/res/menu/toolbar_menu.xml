@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/options_id"
+        android:title="options"
+        />
+    <item android:id="@+id/settings_id"
+        android:title="Offers"
+        />
+    <item android:id="@+id/help"
+        android:title="@string/drawer_item_help"
+        />
+    <item android:title=""
+        android:id="@+id/search_id"
+        android:icon="@drawable/magnify"
+        app:showAsAction="always"
+        />
+    <item android:title=""
+        android:id="@+id/cart_id"
+        android:icon="@drawable/ic_cart_outline"
+        app:showAsAction="always"/>
+</menu>

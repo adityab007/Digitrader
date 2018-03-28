@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.dell.Digitrader">
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Digitrader"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".Digitrader">
+
+
+        <activity android:name="com.example.dell.Digitrader.LogIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dell.Digitrader.Main2Activity"
+            android:label="@string/title_activity_main2" />
+        <activity android:name="com.example.dell.Digitrader.Settings" />
+        <activity android:name="com.example.dell.Digitrader.Help" />
+        <activity android:name="com.example.dell.Digitrader.Contacts" />
+        <activity android:name="com.example.dell.Digitrader.MainActivity" />
+        <activity android:name="com.example.dell.Digitrader.Database" />
+        <activity android:name="com.example.dell.Digitrader.DisplayData" />
+        <activity android:name="com.example.dell.Digitrader.Onstock" />
+        <activity android:name="com.example.dell.Digitrader.Scanner"></activity>
+    </application>
+
+</manifest>
