@@ -2,21 +2,21 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.dell.Digitrader">
+
     <uses-permission android:name="android.permission.CAMERA" />
+
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <application
+        android:name=".Digitrader"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="Digitrader"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        android:name=".Digitrader">
-
-
-        <activity android:name="com.example.dell.Digitrader.LogIn">
+        android:theme="@style/AppTheme">
+        <activity android:name=".LogIn">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,16 +24,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.dell.Digitrader.Main2Activity"
+            android:name=".Main2Activity"
             android:label="@string/title_activity_main2" />
-        <activity android:name="com.example.dell.Digitrader.Settings" />
-        <activity android:name="com.example.dell.Digitrader.Help" />
-        <activity android:name="com.example.dell.Digitrader.Contacts" />
-        <activity android:name="com.example.dell.Digitrader.MainActivity" />
-        <activity android:name="com.example.dell.Digitrader.Database" />
-        <activity android:name="com.example.dell.Digitrader.DisplayData" />
-        <activity android:name="com.example.dell.Digitrader.Onstock" />
-        <activity android:name="com.example.dell.Digitrader.Scanner"></activity>
+        <activity android:name=".Settings" />
+        <activity android:name=".Help" />
+        <activity android:name=".Contacts" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Database" />
+        <activity android:name=".DisplayData" />
+        <activity android:name=".Onstock" />
+        <activity android:name=".Scanner" />
+        <activity android:name="com.example.dell.anew.Delete"/>
     </application>
 
 </manifest>
