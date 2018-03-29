@@ -34,7 +34,7 @@
         <activity android:name=".DisplayData" />
         <activity android:name=".Onstock" />
         <activity android:name=".Scanner" />
-        <activity android:name="com.example.dell.anew.Delete"/>
+        <activity android:name=".Delete"/>
     </application>
 
 </manifest>

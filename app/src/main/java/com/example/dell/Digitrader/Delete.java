@@ -1,4 +1,4 @@
-package com.example.dell.anew;
+package com.example.dell.Digitrader;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
