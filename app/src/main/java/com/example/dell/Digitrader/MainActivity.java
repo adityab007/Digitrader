@@ -198,7 +198,7 @@ public class MainActivity extends AppCompatActivity {
                             } else if (drawerItem.getIdentifier() == 12) {
                                 //intent = new Intent(MainActivity.this, Class.class);
                             } else if (drawerItem.getIdentifier() == 13) {
-                                //intent = new Intent(MainActivity.this, Class.class);
+                                intent = new Intent(MainActivity.this, Delete.class);
                             } else if (drawerItem.getIdentifier() == 97) {
                                 intent = new Intent(MainActivity.this, Settings.class);
                             } else if (drawerItem.getIdentifier() == 98) {
